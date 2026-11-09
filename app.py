@@ -29,8 +29,8 @@ st.sidebar.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 if st.sidebar.button("Haz click pero en la barra lateral"):
   st.sidebar.write("¡Boton de la barra presionado!")
 
-  #Campo de texto de la barra lateral
-  texto_barra = st.sidebar.text_input("Escribe algo en la barra:")
-  st.sidebar.write(f"Escribiste en la barra: {texto_barra}")
+#Campo de texto de la barra lateral
+texto_barra = st.sidebar.text_input("Escribe algo en la barra:")
+st.sidebar.write(f"Escribiste en la barra: {texto_barra}")
   
                 
