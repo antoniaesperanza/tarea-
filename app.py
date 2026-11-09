@@ -10,10 +10,10 @@ st.sidebar.text("¡Hola, Barra lateral!")
 
 #    Area principal
 st.text("Esta es una aplicacion simple")
-st.image("https://researches.uss.cl/skin/footerIcon/", width=250)
+st.image("https://researchers.uss.cl/skin/footerIcon/", width=250)
 
 #Boton de area principal 
-if st.button("haz clicl"):
+if st.button("haz click"):
   st.write("¡Boton precionado!")
 
 #Campo de texto del area principal
@@ -23,7 +23,7 @@ st.write(f"Escribiste: {nombre_texto}")
 
 #  Barra Lateral
 st.sidebar.text("Esto es una barra lateral")
-st.sidebar.image("https://researches.uss.cl/skin/footerIcon/", width=200)
+st.sidebar.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 
 #Boton de la barra lateral
 if st.sidebar.button("Haz clicl pero en la barra lateral"):
