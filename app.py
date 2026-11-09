@@ -14,7 +14,7 @@ st.image("https://researchers.uss.cl/skin/footerIcon/", width=250)
 
 #Boton de area principal 
 if st.button("haz click"):
-  st.write("¡Boton precionado!")
+  st.write("¡Boton presionado!")
 
 #Campo de texto del area principal
 nombre_texto = st.text_input("Escribe algo:")
